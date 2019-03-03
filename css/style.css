@@ -1,8 +1,39 @@
+  html, body {
+      height: 100%;
+      margin: 0;
+  }
+
 .primary-color{
   background-color:   #232b2b;
   color : white; 
 }
 
 #cover {
-  
+  height: 100%;
+  /*background: url(http://cloud.niklausgerber.com/432W0y1g2h05/orange.png) center center no-repeat scroll #232b2b;*/
+}
+
+#cover h1,#cover p {
+    position: relative;
+    top: 50vh;
+}
+
+.turquoise-text {
+  color:turquoise;
+}
+
+.turquoise-bg {
+  background-color: turquoise;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: turquoise; 
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  color: black;
+}
+
+section, footer{
+  min-height: 400px;
 }
