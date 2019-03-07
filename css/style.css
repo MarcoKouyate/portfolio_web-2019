@@ -13,7 +13,7 @@
   /*background: url(http://cloud.niklausgerber.com/432W0y1g2h05/orange.png) center center no-repeat scroll #232b2b;*/
 }
 
-#cover h1,#cover p {
+#cover h1, #cover p {
     position: relative;
     top: 50vh;
 }
@@ -27,13 +27,58 @@
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    background-color: turquoise; 
+    background-color: #6c757d;
+    border-radius: 0px;
+    border-bottom: 4px solid turquoise;
 }
 
 .navbar-dark .navbar-nav .nav-link.active {
-  color: black;
+    color: turquoise;
 }
 
 section, footer{
   min-height: 400px;
+}
+
+
+/*==========================================================*/
+
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+
+
+.gallery_product
+{
+    margin-bottom:  0px;
+    padding: 5px;
+}
+
+
+.gallery_product img {
+  width: 100%;
 }
