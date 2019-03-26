@@ -47,7 +47,7 @@ section, footer{
 }
 
 
-.filter-button
+.filter-button, 
 {
     font-size: 18px;
     border: 1px solid #42B32F;
@@ -57,6 +57,8 @@ section, footer{
     margin-bottom: 30px;
 
 }
+
+
 .filter-button:hover
 {
     font-size: 18px;
@@ -119,6 +121,12 @@ section, footer{
   top:50px;
 }
 
+.send-button {
+  border-radius: 0px;
+}
+.send-button a {
+  width: 100%;
+}
 
 .gallery_product
 {
@@ -157,6 +165,18 @@ section, footer{
   color: turquoise;
 }
 
+.filter-button:hover {
+  border-radius: 0%;
+  background-color: white;
+  color: turquoise;
+  border-color: turquoise;
+}
+h2 {
+  text-align: center;
+  font-size: 3em;
+  margin: 20px;
+}
+
 h3 {
   background-color: turquoise;
   color: #232b2b;
@@ -165,6 +185,26 @@ h3 {
   font-style: italic;
 }
 
+.form-control {
+  border-radius: 0%;
+  background-color: #232b2b;
+  border: 0px;
+  border-bottom: solid 1px white;
+  outline: none;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+.form-control:focus {
+  border-radius: 0%;
+  background-color: #232b2b;
+  color:white;
+  border: 0px;
+  border-bottom: solid 1px white;
+  outline: none;
+}
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px ) { 
