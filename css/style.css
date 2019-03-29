@@ -107,7 +107,7 @@ section, footer{
   text-align: justify;
   font-size: 0.8em;
   margin: 20px;
-  height: 37%
+  height: 25%
 }
 
 .contact-thumbnail:hover .contact-infos{
@@ -171,6 +171,7 @@ section, footer{
   color: turquoise;
   border-color: turquoise;
 }
+
 h2 {
   text-align: center;
   font-size: 3em;
@@ -183,6 +184,10 @@ h3 {
   font-size: 1.5em;
   color: black;
   font-style: italic;
+}
+
+h4 {
+  font-size: 1em;
 }
 
 .form-control {
