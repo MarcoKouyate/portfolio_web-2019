@@ -61,7 +61,6 @@ section, footer{
 
 .filter-button:hover
 {
-    font-size: 18px;
     border: 1px solid #42B32F;
     border-radius: 5px;
     text-align: center;
@@ -153,6 +152,10 @@ section, footer{
   background-color: #42B32F;
 }
 
+.cards {
+  border-radius: 5px 200px 200px 5px;
+}
+
 .link-button a{
   color: white;
 }
@@ -175,10 +178,19 @@ section, footer{
 h2 {
   text-align: center;
   font-size: 3em;
-  margin: 20px;
+  margin: center20px;
 }
 
-h3 {
+.card-info p, .card-info li {
+  font-size: 0.8em;
+  text-align: justify;
+}
+
+.card-info h5{
+  font-size: 1em;
+}
+
+#works h3 {
   background-color: turquoise;
   color: #232b2b;
   font-size: 1.5em;
@@ -200,6 +212,24 @@ h4 {
 
 input:focus, textarea:focus {
     outline: none;
+}
+
+.date {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.software {
+  border: 1px white solid;
+  color: white;
+  border-radius: 100%;
+}
+
+.cards img {
+  border-radius: 100%;
+  position: relative;
+  left: 20px;
+  border: 1px solid  #232b2b;
 }
 
 .form-control:focus {
