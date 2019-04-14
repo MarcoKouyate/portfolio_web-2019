@@ -8,14 +8,27 @@
   color : white; 
 }
 
+.black-bg{
+  background-color: black;
+  color : white; 
+}
+
 #cover {
   height: 100%;
   /*background: url(http://cloud.niklausgerber.com/432W0y1g2h05/orange.png) center center no-repeat scroll #232b2b;*/
 }
 
-#cover h1, #cover p {
+#cover h1, .announce img {
     position: relative;
     top: 50vh;
+    border-radius: 15px;
+}
+
+
+.announce img {
+  
+  position: relative;
+  right: 10px;
 }
 
 .turquoise-text {
@@ -55,7 +68,6 @@ section, footer{
     text-align: center;
     color: #42B32F;
     margin-bottom: 30px;
-
 }
 
 
@@ -79,7 +91,7 @@ section, footer{
   position: relative;
   overflow: hidden;
   border-radius: 5%;
-  background-color: red;
+  background-color: turquoise;
 }
 
 .contact-infos {
